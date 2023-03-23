@@ -6,7 +6,6 @@
 <img src="model_results.jpg">
 I have trained 4 different models from scratch for this task in the notebook inside the Task 2 folder. I also evaluated then on the 10% Validation Data for MSE (Mean Squared Error), SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio).
 
-The code and all functions are well documented in the ipynb file. 
 The custom trained models and their evaluation on 10% val set are: 
 
 | Model      | MSE        | SSIM       | PSNR       |
@@ -16,6 +15,7 @@ The custom trained models and their evaluation on 10% val set are:
 | LapSRN (Laplacian Pyramid Super-Resolution Network)     | 0.004762   | 0.509009   | 22.244892  |
 | ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks)     | 0.000968   | 0.967625   | 27.573939  |
 
+The code and all functions are well documented in the ipynb file. 
 
 
 
