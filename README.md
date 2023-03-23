@@ -3,6 +3,7 @@
 <a href="https://tensorflow.org"><img src="https://img.shields.io/badge/Powered%20by-Tensorflow-orange.svg"/></a> [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yaashwardhan/BrainStain.ai/main?color=blue)
 
 ---
+<img src="model_results.jpg">
 I have trained 4 different models from scratch for this task in the notebook inside the Task 2 folder. I also evaluated then on the 10% Validation Data for MSE (Mean Squared Error), SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio).
 
 The custom trained models and their evaluation on 10% val set are: 
@@ -15,5 +16,5 @@ The custom trained models and their evaluation on 10% val set are:
 | ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks)     | 0.000968   | 0.967625   | 27.573939  |
 
 
-<img src="Task2/.model_results.jpg">
+
 
