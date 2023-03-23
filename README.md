@@ -6,6 +6,7 @@
 <img src="model_results.jpg">
 I have trained 4 different models from scratch for this task in the notebook inside the Task 2 folder. I also evaluated then on the 10% Validation Data for MSE (Mean Squared Error), SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio).
 
+The code and all functions are well documented in the ipynb file. 
 The custom trained models and their evaluation on 10% val set are: 
 
 | Model      | MSE        | SSIM       | PSNR       |
