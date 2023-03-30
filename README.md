@@ -21,7 +21,7 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 | Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-|*`Self-Attention-CNNs`*<br><br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
+|*`Self-Attention-CNNs`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task2%20-%20Lens%20Finding%20(0.99%20AUC)%20(Self-Attention%20CNN)/Task2_Lens_Finding_Self_Attention_CNN.ipynb)<br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
 
 ---
 
@@ -29,7 +29,7 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 | Approach | MSE | 
 |---|---|
-|*`Representational Learning Transformers`*<br><br>Transformers use custom RotationalConv2D layers and contrastive loss<br>to learn equivariant representations, improving performance on tasks involving<br>image augmentations like rotations. The model is pre-trained with ResNet50<br>weights and fine-tuned for specific regression tasks. | 2.28 x 10^-4
+|*`Representational Learning Transformers`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task3%20-%20Learning%20Mass%20of%20Dark%20Matter%20Halo%20%20(2.28x10%5E-4%20MSE)%20(Equivariant%20Transformers)/Learning_Mass_of_Dark_Matter_Halo_Regressor.ipynb.ipynb)<br>Transformers use custom RotationalConv2D layers and contrastive loss<br>to learn equivariant representations, improving performance on tasks involving<br>image augmentations like rotations. The model is pre-trained with ResNet50<br>weights and fine-tuned for specific regression tasks. | 2.28 x 10^-4
 
 ---
 
