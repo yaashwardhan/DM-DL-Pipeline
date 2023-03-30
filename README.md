@@ -27,7 +27,7 @@
 
 | Approach | MSE | 
 |---|---|
-|*`Representational Learning Transformers`*<br><br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks. | 2.28 x 10^-4
+|*`Representational Learning Transformers`*<br><br>Transformers use custom RotationalConv2D layers and contrastive loss<br>to learn equivariant representations, improving performance on tasks involving<br>image augmentations like rotations. The model is pre-trained with ResNet50<br>weights and fine-tuned for specific regression tasks. | 2.28 x 10^-4
 
 ---
 
@@ -35,7 +35,7 @@
 
 | Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-|*`Self Supervised Equivariant Transformers`*<br><br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks.  | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
+|*`Self Supervised Equivariant Transformers`*<br><br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks.  | 0.99 |<img src="Task4 - Equivariant Neural Networks (0.99 AUC)/equivariant_transformers_classification_results.png" width="600">
 
 
 
