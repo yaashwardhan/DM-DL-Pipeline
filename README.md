@@ -71,13 +71,5 @@ I am interested in applying for all the proposals/projects, especially:
  
 | Approaches | Metrics  | Confusion Matrix and ROC plot  |
 |---|---|---|
-|*`Classification-Self_Supervised`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task8%20-%20Self-Supervised%20Learning%20(0.99%20AUC%2C%202.28x10%5E4%20MSE)%20(Representational%20Learning%2C%20Equivariant%20Transformers%2C%20Constrastive%20Loss)/Task8_Classification_SelfSupervised_Equivariant_Transformer.)<br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks. |0.99 AUC |<img src="Task8 - Self-Supervised Learning (0.99 AUC, 2.28x10^-4 MSE) (Representational Learning, Equivariant Transformers, Constrastive Loss)/results/self_supervised_equivariant_transformers_classification_results.png" width="600">
-
-
+|*`Classification-Self_Supervised`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task8%20-%20Self-Supervised%20Learning%20(0.99%20AUC%2C%202.28x10%5E4%20MSE)%20(Representational%20Learning%2C%20Equivariant%20Transformers%2C%20Constrastive%20Loss)/Task8_Classification_SelfSupervised_Equivariant_Transformer.)<br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks. |0.99 AUC |<img src="Task8 - Self-Supervised Learning (0.99 AUC, 2.28x10^-4 MSE) (Representational Learning, Equivariant Transformers, Constrastive Loss)/results/self_supervised_equivariant_transformers_classification_results.png" width="600">|
 |*`Regression-Self_Supervised`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task8%20-%20Self-Supervised%20Learning%20(0.99%20AUC%2C%202.28x10%5E-4%20MSE)%20(Representational%20Learning%2C%20Equivariant%20Transformers%2C%20Constrastive%20Loss)/Task8_Regression_SelfSupervised_Transformer_Representational_Learning.ipynb)<br>Transformers use custom RotationalConv2D layers and contrastive loss<br>to learn equivariant representations, improving performance on tasks involving<br>image augmentations like rotations. The model is pre-trained with ResNet50<br>weights and fine-tuned for specific regression tasks.|2.28 x 10^-4 MSE|
-
-
-
-
-
-<a href="https://tensorflow.org"><img src="https://img.shields.io/badge/Powered%20by-Tensorflow-orange.svg"/></a> [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yaashwardhan/BrainStain.ai/main?color=blue)
