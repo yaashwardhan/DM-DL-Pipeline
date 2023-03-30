@@ -1,10 +1,11 @@
-# Task 2: Gravitational Lensing SuperResolution  :mag::brain:
-
-<a href="https://tensorflow.org"><img src="https://img.shields.io/badge/Powered%20by-Tensorflow-orange.svg"/></a> [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yaashwardhan/BrainStain.ai/main?color=blue)
+### 7 Tasks Completed :mag::white_check_mark:
 
 ---
-Models trained by me can be downloaded from [HERE](https://drive.google.com/drive/folders/1Qu2PAL7qi68AhvQYWCmnwYMdbEu56s_T?usp=sharing)
 
+All data including trained models can be found here [:arrow_right: HERE :arrow_left:](https://drive.google.com/drive/folders/1x5gm4ywOQ8brxMn11KjLBxsehQuxtx19?usp=sharing)
+
+---
+Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)
 <img src="model_results.jpg">
 I have trained 4 different models from scratch for this task in the notebook inside the Task 2 folder. I also evaluated then on the 10% Validation Data for MSE (Mean Squared Error), SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio).
 
@@ -21,3 +22,4 @@ The code and all functions are well documented in the ipynb file.
 
 
 
+<a href="https://tensorflow.org"><img src="https://img.shields.io/badge/Powered%20by-Tensorflow-orange.svg"/></a> [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yaashwardhan/BrainStain.ai/main?color=blue)
