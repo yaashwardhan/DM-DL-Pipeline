@@ -35,7 +35,7 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 *   **Task4:** Exploring Equivariant Neural Networks
 
-| Approac | Val AUC  | Confusion Matrix and ROC plot  |
+| Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
 |*`Self Supervised Equivariant Transformers`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task4%20-%20Equivariant%20Neural%20Networks%20(0.99%20AUC)/Task4_Classification_Equivariant_Transformer.ipynb)<br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks.  | 0.99 |<img src="Task4 - Equivariant Neural Networks (0.99 AUC)/equivariant_transformers_classification_results.png" width="600">
 
@@ -45,7 +45,7 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 | Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-|*`Vision Transformers`*<br><br>(Self-Written, inspired by vit-keras<br>which is not maintained since 2021).<br>Uses self-attention mechanisms.<br> We follow detailed steps,<br>including 2D Conv layer,<br>token flattening, positional embeddings,<br>and transformer blocks, to implement<br>the model and apply pretrained 'npz'<br>weights for prediction.  | 0.99 |<img src="Task5 - Vision Transformers (0.99 AUC) From Scratch/ViT_results.png" width="600">
+|*`Vision Transformers`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task5%20-%20Vision%20Transformers%20(0.99%20AUC)%20From%20Scratch/ViT_from_scratch_Task5.ipynb)<br>(Self-Written, inspired by vit-keras<br>which is not maintained since 2021).<br>Uses self-attention mechanisms.<br> We follow detailed steps,<br>including 2D Conv layer,<br>token flattening, positional embeddings,<br>and transformer blocks, to implement<br>the model and apply pretrained 'npz'<br>weights for prediction.  | 0.99 |<img src="Task5 - Vision Transformers (0.99 AUC) From Scratch/ViT_results.png" width="600">
 
 
 ---
