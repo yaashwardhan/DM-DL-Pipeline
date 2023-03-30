@@ -2,7 +2,12 @@
 
 [:arrow_right: Click Here :arrow_left:](https://drive.google.com/drive/folders/1x5gm4ywOQ8brxMn11KjLBxsehQuxtx19?usp=sharing) to access all the data including the trained models for all tasks. 
 
-Everything is built in Keras and Tensorflow. If required, I can do the same in PyTorch.
+Everything is built in Keras and Tensorflow. If required, I can do the same in PyTorch aswell.
+
+I am interested in applying for all the proposals/projects, especially:
+- Superresolution for Strong Gravitational Lensing
+- Self-Supervised Learning for Strong Gravitational Lensing
+- Transformers for Dark Matter Morphology with Strong Gravitational Lensing
 
 ---
 ### Details and results for all tasks: 
