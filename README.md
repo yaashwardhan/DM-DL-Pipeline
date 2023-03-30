@@ -14,10 +14,11 @@
 |*`ResNet50 Transfer Learning`*<br><br>Utilizing ResNet-50 for transfer<br>learning, we remove its classification<br>head, apply batch normalization,<br>dropout, and a dense<br>layer with softmax activation<br>for 3-class probability output.<br>This implementation is simplified<br>using existing libraries for<br>the model's architecture.|0.98| <img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/ResNet50_results.png" width="600">
 
 
-*   **Task2:** 
+*   **Task2:** Lens Finding
+
 | Method | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-
+|*`Self-Attention-CNNs`*<br><br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
 
 
 
