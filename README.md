@@ -3,7 +3,7 @@
 [:arrow_right: Click Here :arrow_left:](https://drive.google.com/drive/folders/1x5gm4ywOQ8brxMn11KjLBxsehQuxtx19?usp=sharing) to access all the data including the trained models for all tasks.
 
 ---
-#### Results for Tasks: 
+#### Details with Results for Tasks: 
 
 *   **Task1:** Multi-Label Classification(Results get better over time)
 
