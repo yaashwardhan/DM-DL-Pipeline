@@ -3,30 +3,43 @@
 [:arrow_right: Click Here :arrow_left:](https://drive.google.com/drive/folders/1x5gm4ywOQ8brxMn11KjLBxsehQuxtx19?usp=sharing) to access all the data including the trained models for all tasks.
 
 ---
-#### Details with Results for Tasks: 
+#### Details and results for all tasks: 
 
 *   **Task1:** Multi-Label Classification(Results get better over time)
 
-| Method | Val AUC  | Confusion Matrix and ROC plot  |
+| Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
 |*`Channelwise Attention CNN`*<br><br>This approach involves using<br>a CNN with two branches, each<br>containing a channelwise attention<br>mechanism to refine learned features. |0.80|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/results_Channelwise_Attention_CNN.png" width="600">
 |*`Vision Transformer (Custom)`*<br><br>This approach involves<br>a self-attention Vision Transformer<br>whoes architecture implemented from<br>scratch and then imagenet<br>pretrained weights are applied to it.<br>The model processes image patches<br>through 12 transformer blocks with<br>multi-head self-attention and MLP,<br>then outputs class probabilities. |0.90|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/Custom_ViT.png" width="600">
 |*`ResNet50 Transfer Learning`*<br><br>Utilizing ResNet-50 for transfer<br>learning, we remove its classification<br>head, apply batch normalization,<br>dropout, and a dense<br>layer with softmax activation<br>for 3-class probability output.<br>This implementation is simplified<br>using existing libraries for<br>the model's architecture.|0.98| <img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/ResNet50_results.png" width="600">
 
+---
 
 *   **Task2:** Lens Finding
 
-| Method | Val AUC  | Confusion Matrix and ROC plot  |
+| Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
 |*`Self-Attention-CNNs`*<br><br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
 
+---
+
+*   **Task3:** Learning Mass of Dark Matter Halo
+
+| Approach | MSE | 
+|---|---|
+|*`Self-Attention-CNNs`*<br><br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks. | 2.28 x 10^-4
+
+---
 
 
 
 
 
+---
 
 
+---
+---
 
 
 
