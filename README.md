@@ -9,7 +9,7 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 *   **Task1:** Multi-Label Classification(Results get better over time)
 
-| Approach | Val AUC  | Confusion Matrix and ROC plot  |
+| Approaches | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
 |*`Channelwise Attention CNN`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task1%20-%20MultiLabel%20Classification%20(0.98%20AUC)%20(AttentionCNN%2C%20ViT%2C%20Resnet50)/Task1_Channelwise_Attention_CNN.ipynb)<br>This approach involves using<br>a CNN with two branches, each<br>containing a channelwise attention<br>mechanism to refine learned features. |0.80|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/results_Channelwise_Attention_CNN.png" width="600">
 |*`Vision Transformer (Custom)`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task1%20-%20MultiLabel%20Classification%20(0.98%20AUC)%20(AttentionCNN%2C%20ViT%2C%20Resnet50)/Task1_ViT_from_scratch.ipynb)<br>This approach involves<br>a self-attention Vision Transformer<br>whoes architecture implemented from<br>scratch and then imagenet<br>pretrained weights are applied to it.<br>The model processes image patches<br>through 12 transformer blocks with<br>multi-head self-attention and MLP,<br>then outputs class probabilities. |0.90|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/Custom_ViT.png" width="600">
@@ -35,9 +35,9 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 *   **Task4:** Exploring Equivariant Neural Networks
 
-| Approach (3) | Val AUC  | Confusion Matrix and ROC plot  |
+| Approac | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-|*`Self Supervised Equivariant Transformers`*<br><br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks.  | 0.99 |<img src="Task4 - Equivariant Neural Networks (0.99 AUC)/equivariant_transformers_classification_results.png" width="600">
+|*`Self Supervised Equivariant Transformers`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task4%20-%20Equivariant%20Neural%20Networks%20(0.99%20AUC)/Task4_Classification_Equivariant_Transformer.ipynb)<br>Equivariant Transformers use custom<br>RotationalConv2D layers and ResNet50<br>transfer learning to maintain<br>equivariance for input rotations.<br>Contrastive loss guides embeddings,<br>followed by fine-tuning for regression tasks.  | 0.99 |<img src="Task4 - Equivariant Neural Networks (0.99 AUC)/equivariant_transformers_classification_results.png" width="600">
 
 ---
 
