@@ -5,9 +5,9 @@
 Everything is built in Keras and Tensorflow. If required, I can do the same in PyTorch aswell.
 
 I am interested in applying for all the proposals/projects, especially:
-- Superresolution for Strong Gravitational Lensing
-- Self-Supervised Learning for Strong Gravitational Lensing
-- Transformers for Dark Matter Morphology with Strong Gravitational Lensing
+- `Superresolution for Strong Gravitational Lensing`
+- `Self-Supervised Learning for Strong Gravitational Lensing`
+- `Transformers for Dark Matter Morphology with Strong Gravitational Lensing`
 
 ---
 ### Details and results for all tasks: 
@@ -54,8 +54,7 @@ I am interested in applying for all the proposals/projects, especially:
 
 ---
 
-*   **Task6:** Image Super 
-
+*   **Task6:** Image SuperResolution
 
 | Approach      | MSE        | SSIM       | PSNR       |
 |------------|------------|------------|------------|
@@ -65,7 +64,16 @@ I am interested in applying for all the proposals/projects, especially:
 | *`ESRGAN`* (Enhanced Super-Resolution Generative Adversarial Networks) <br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>Generative Adversarial Networks can combat mode collapse using loss functions like perceptual loss, which leverages VGG19 and sub-pixel convolution for high-resolution image generation. Residual Dense Blocks, batch normalization, and other techniques help stabilize and improve training for visually accurate results.    | 0.000968   | 0.967625   | 27.573939  |
 
 <img src="Task6 - Image Super-resolution (0.99 SSIM, 41.7 PSNR) (SuperResCNN, EDSR, LapSRN, ESRGAN)/model_results.jpg">
+
 ---
+
+*   **Task8:** Self-Supervised Learning 
+*   
+| Approaches | Metrics  | Confusion Matrix and ROC plot  |
+|---|---|---|
+|*`Channelwise Attention CNN`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task8%20-%20Self-Supervised%20Learning%20(0.99%20AUC%2C%202.28x10%5E4%20MSE)%20(Representational%20Learning%2C%20Equivariant%20Transformers%2C%20Constrastive%20Loss)/Task8_Classification_SelfSupervised_Equivariant_Transformer.)<br>This approach involves using<br>a CNN with two branches, each<br>containing a channelwise attention<br>mechanism to refine learned features. |0.99 AUC |<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/results_Channelwise_Attention_CNN.png" width="600">
+|*`Vision Transformer (Custom)`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task8%20-%20Self-Supervised%20Learning%20(0.99%20AUC%2C%202.28x10%5E-4%20MSE)%20(Representational%20Learning%2C%20Equivariant%20Transformers%2C%20Constrastive%20Loss)/Task8_Regression_SelfSupervised_Transformer_Representational_Learning.ipynb)<br>This approach involves<br>a self-attention Vision Transformer<br>whoes architecture implemented from<br>scratch and then imagenet<br>pretrained weights are applied to it.<br>The model processes image patches<br>through 12 transformer blocks with<br>multi-head self-attention and MLP,<br>then outputs class probabilities. |2.28 x 10^-4 MSE|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/Custom_ViT.png" width="600">
+
 
 
 
