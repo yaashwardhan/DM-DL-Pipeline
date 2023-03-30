@@ -1,6 +1,6 @@
 ## 7 Tasks Completed :mag::white_check_mark:
 
-[:arrow_right: Click Here :arrow_left:](https://drive.google.com/drive/folders/1x5gm4ywOQ8brxMn11KjLBxsehQuxtx19?usp=sharing) to access all the data including the trained models for all tasks.
+[:arrow_right: Click Here :arrow_left:](https://drive.google.com/drive/folders/1x5gm4ywOQ8brxMn11KjLBxsehQuxtx19?usp=sharing) to access all the data including the trained models for all tasks. Everthing is built in Keras and Tensorflow. If required, i can do the same in PyTorch.
 
 ---
 ### Details and results for all tasks: 
