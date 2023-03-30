@@ -5,16 +5,13 @@
 ---
 #### Results for Tasks: 
 
-*   **Task1:**
+*   **Task1:** (Results get better over time)
 
 | Method | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-|*`Channelwise Attention CNN`*<br>Firstly, we define a convolutional<br>base to extract hierarchical features from the input image.Then the output is fed into two branches, which helps in channel-wise feature recalibration
-An attention mechanism is implemented by applying Global Average Pooling, followed by two dense layers with a sigmoid activation function at the end. This generates an attention map that is element-wise multiplied with both branches to emphasize relevant features. In simpler terms, the code uses the Global Average Pooling layer to generate a global representation of the shared feature maps. Then, the representation is passed through two dense layers to learn a set of weights that indicate the importance of each channel. These weights are then used to modulate the feature maps through an element-wise multiplication operation, which enables the network to focus on the most informative parts of the input image.
-The network then learns to refine the features in the two branches by applying a residual learning strategy which involves subtracting, convolving, batch normalizing, and adding the features back to the original branches.
-Finally, the features from both branches are concatenated|0.80|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/results_Channelwise_Attention_CNN.png" width="600">
-|*`Vision Transformer (Custom)`* |0.90|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/Custom_ViT.png" width="600">
-|*`ResNet50 Transfer Learning`*|0.98| <img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/ResNet50_results.png" width="600">
+|*`Channelwise Attention CNN`*<br><br>This approach involves using<br>a CNN with two branches, each<br>containing a channelwise attention<br>mechanism to refine learned features. |0.80|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/results_Channelwise_Attention_CNN.png" width="600">
+|*`Vision Transformer (Custom)`*<br><br>This approach involves<br>a self-attention Vision Transformer<br>whoes architecture implemented from<br>scratch and then imagenet<br>pretrained weights are applied to it.<br>The model processes image patches<br>through 12 transformer blocks with<br>multi-head self-attention and MLP,<br>then outputs class probabilities. |0.90|<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/Custom_ViT.png" width="600">
+|*`ResNet50 Transfer Learning`*<br><br>Utilizing ResNet-50 for transfer<br>learning, we remove its classification<br>head, apply batch normalization,<br>dropout, and a dense<br>layer with softmax activation<br>for 3-class probability output.<br>This implementation is simplified<br>using existing libraries for<br>the model's architecture.|0.98| <img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/ResNet50_results.png" width="600">
 
 
 ---
