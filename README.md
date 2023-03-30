@@ -4,12 +4,17 @@
 
 ---
 ### Results: 
+|   |   |   |
+|---|---|---|
+|||<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/results_Channelwise_Attention_CNN.png" width="600">
+|||<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/ResNet50_results.png" width="600">   
+|||<img src="Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)/results/Custom_ViT.png" width="600">
 
 
 ---
 About: 
 Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)
-<img src="model_results.jpg">
+
 I have trained 4 different models from scratch for this task in the notebook inside the Task 2 folder. I also evaluated then on the 10% Validation Data for MSE (Mean Squared Error), SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio).
 
 The custom trained models and their evaluation on 10% val set are: 
