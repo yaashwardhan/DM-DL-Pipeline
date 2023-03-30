@@ -49,40 +49,19 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 ---
 
-*   **Task6:** Exploring Vision Transformers
+*   **Task6:** Image Super 
 
 
 | Approach      | MSE        | SSIM       | PSNR       |
 |------------|------------|------------|------------|
-| *`SuperResCNN`* (Super-Resolution Convolutional Neural Network)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br> | 0.000065   | 0.99168    | 41.780569  |
-| *`EDSR`*  (Enhanced Deep Residual Networks)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>       | 0.000298   | 0.987563   | 36.769835  |
-| *`LapSRN`*  (Laplacian Pyramid Super-Resolution Network)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>     | 0.004762    | 0.509009   | 22.244892  |
-| *`ESRGAN`* (Enhanced Super-Resolution Generative Adversarial Networks) <br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>    | 0.000968   | 0.967625   | 27.573939  |
+| *`SuperResCNN`* (Super-Resolution Convolutional Neural Network)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>Establish a baseline model for performance analysis to guide improvement direction (e.g., residual blocks, self-attention, or GAN architecture). Begin with SuperResCNN, an upsampling layer and three-layer neural network for mapping low-resolution to high-resolution images. | 0.000065   | 0.99168    | 41.780569  |
+| *`EDSR`*  (Enhanced Deep Residual Networks)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>Residual Blocks to capture more complex image features       | 0.000298   | 0.987563   | 36.769835  |
+| *`LapSRN`*  (Laplacian Pyramid Super-Resolution Network)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>LapSRN, preserves details with an Add() layer in the residual_block function, improving memory efficiency and speeding up inference, while reducing blur and sharpening the image.     | 0.004762    | 0.509009   | 22.244892  |
+| *`ESRGAN`* (Enhanced Super-Resolution Generative Adversarial Networks) <br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>Generative Adversarial Networks can combat mode collapse using loss functions like perceptual loss, which leverages VGG19 and sub-pixel convolution for high-resolution image generation. Residual Dense Blocks, batch normalization, and other techniques help stabilize and improve training for visually accurate results.    | 0.000968   | 0.967625   | 27.573939  |
 
 <img src="Task6 - Image Super-resolution (0.99 SSIM, 41.7 PSNR) (SuperResCNN, EDSR, LapSRN, ESRGAN)/model_results.jpg">
 ---
 
-
-
-
-
-
----
-About: 
-Task1 - MultiLabel Classification (0.98 AUC) (AttentionCNN, ViT, Resnet50)
-
-I have trained 4 different models from scratch for this task in the notebook inside the Task 2 folder. I also evaluated then on the 10% Validation Data for MSE (Mean Squared Error), SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio).
-
-The custom trained models and their evaluation on 10% val set are: 
-
-| Model      | MSE        | SSIM       | PSNR       |
-|------------|------------|------------|------------|
-| SuperResCNN (Super-Resolution Convolutional Neural Network) | 0.000065   | 0.99168    | 41.780569  |
-| EDSR (Enhanced Deep Residual Networks)       | 0.000298   | 0.987563   | 36.769835  |
-| LapSRN (Laplacian Pyramid Super-Resolution Network)     | 0.004762   | 0.509009   | 22.244892  |
-| ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks)     | 0.000968   | 0.967625   | 27.573939  |
-
-The code and all functions are well documented in the ipynb file. 
 
 
 
