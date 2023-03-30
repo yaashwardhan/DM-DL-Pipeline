@@ -51,10 +51,15 @@ Everything is built in Keras and Tensorflow. If required, I can do the same in P
 
 *   **Task6:** Exploring Vision Transformers
 
-| Approach | Val AUC  | Confusion Matrix and ROC plot  |
-|---|---|---|
-|*`Vision Transformers`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>(Self-Written, inspired by vit-keras<br>which is not maintained since 2021).<br>Uses self-attention mechanisms.<br> We follow detailed steps,<br>including 2D Conv layer,<br>token flattening, positional embeddings,<br>and transformer blocks, to implement<br>the model and apply pretrained 'npz'<br>weights for prediction.  | 0.99 |<img src="Task5 - Vision Transformers (0.99 AUC) From Scratch/ViT_results.png" width="600">
 
+| Approach      | MSE        | SSIM       | PSNR       |
+|------------|------------|------------|------------|
+| *`SuperResCNN`* (Super-Resolution Convolutional Neural Network)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br> | 0.000065   | 0.99168    | 41.780569  |
+| *`EDSR`*  (Enhanced Deep Residual Networks)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>       | 0.000298   | 0.987563   | 36.769835  |
+| *`LapSRN`*  (Laplacian Pyramid Super-Resolution Network)<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>     | 0.004762    | 0.509009   | 22.244892  |
+| *`ESRGAN`* (Enhanced Super-Resolution Generative Adversarial Networks) <br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/Evaluation-Test-DeepLense/blob/main/Task6%20-%20Image%20Super-resolution%20(0.99%20SSIM%2C%2041.7%20PSNR)%20(SuperResCNN%2C%20EDSR%2C%20LapSRN%2C%20ESRGAN)/Task6_SuperResolution_Yashwardhan.ipynb)<br>    | 0.000968   | 0.967625   | 27.573939  |
+
+<img src="Task6 - Image Super-resolution (0.99 SSIM, 41.7 PSNR) (SuperResCNN, EDSR, LapSRN, ESRGAN)/model_results.jpg">
 ---
 
 
