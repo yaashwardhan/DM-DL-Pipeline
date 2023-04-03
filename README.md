@@ -4,7 +4,7 @@
 
 Everything is built in Keras and Tensorflow. If required, I can do the same in PyTorch aswell.
 
-I am interested in applying for all the proposals/projects, especially:
+I am interested in applying for:
 - `Superresolution for Strong Gravitational Lensing`
 - `Self-Supervised Learning for Strong Gravitational Lensing`
 
