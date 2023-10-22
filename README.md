@@ -20,7 +20,7 @@ Summary:
 ---
 ### Details and results for all tasks: 
 
-*   **Goal1:** Image SuperResolution
+*   **Module 1:** Image SuperResolution
 
 | Approach      | MSE        | SSIM       | PSNR       |
 |------------|------------|------------|------------|
@@ -32,7 +32,7 @@ Summary:
 <img src="Task6 - Image Super-resolution (0.99 SSIM, 41.7 PSNR) (SuperResCNN, EDSR, LapSRN, ESRGAN)/model_results.jpg">
 
 ---
-*   **Goal2:** Multi-Label Classification (Results get better over time)
+*   **Module 2:** Multi-Label Classification (Results get better over time)
 
 | Approaches | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
@@ -42,7 +42,7 @@ Summary:
 
 ---
 
-*   **Goal3:** Lens Finding
+*   **Module 3:** Lens Finding
 
 | Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
@@ -50,7 +50,7 @@ Summary:
 
 ---
 
-*   **Goal4:** Learning Mass of Dark Matter Halo
+*   **Module 4:** Learning Mass of Dark Matter Halo
 
 | Approach | MSE | 
 |---|---|
@@ -58,7 +58,7 @@ Summary:
 
 ---
 
-*   **Goal5:** Exploring Equivariant Neural Networks
+*   **Module 5:** Exploring Equivariant Neural Networks
 
 | Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
@@ -66,7 +66,7 @@ Summary:
 
 ---
 
-*   **Goal6:** Exploring Vision Transformers
+*   **Module 6:** Exploring Vision Transformers
 
 | Approach | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
@@ -74,7 +74,7 @@ Summary:
 
 ---
 
-*   **Goal7:** Self-Supervised Learning 
+*   **Module 7:** Self-Supervised Learning 
  
 | Approaches | Metrics  | Confusion Matrix and ROC plot  |
 |---|---|---|
