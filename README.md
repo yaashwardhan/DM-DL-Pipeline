@@ -1,4 +1,4 @@
-## DL Pipeline for Dark Matter Research :mag::white_check_mark:
+## DL Pipeline for Dark Matter Research :mag: :white_check_mark:
 
 A comprehensive machine learning pipeline to analyze and interpret gravitational lensing data for dark matter research. Utilized state-of-the-art deep learning architectures to perform tasks ranging from classification and lens detection to mass prediction and image super-resolution.
 
